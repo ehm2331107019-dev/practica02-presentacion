@@ -1,0 +1,73 @@
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(150, 17, 17, 0.8);
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.title {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #000;
+}
+
+.description {
+    color: #0c0505;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0b5ed7;
+}
+
+.caratula {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    padding: 40px;
+}
+
+.university {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.faculty {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.career {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 65%;
+    height: 1px;
+    background-color: #000;
+    margin: 20px auto;
+}
+
+.caratula p {
+    margin: 6px 0;
+    color: #000;
+}
