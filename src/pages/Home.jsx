@@ -3,14 +3,24 @@ import Title from "../components/Title/Title";
 
 function Home() {
     return (
-        <div style={{ padding: "40px" }}>
+        <div
+            style={{
+                padding: "40px",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: "30px"
+            }}
+        >
             <Title
                 title="Desarrollo Web UPA | I. T. I. & I. S. C."
             />
+
             <Card
                 title="Primer Componente"
                 description="Este es mi primer componente reutilizable en React con prácticas modernas y reutilizables"
             />
+
             <Card
                 variant="caratula"
                 universidad="Universidad Politecnica De Atlacomulco"
